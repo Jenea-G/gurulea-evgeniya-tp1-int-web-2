@@ -6,77 +6,93 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="Styles/style.css">
     <link rel="stylesheet" href="Styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=KoHo:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
 
 </head>
 <body>
     <header>
-        <img src="Images/logo-default.svg" alt="Logo terre & flamme">
-        <div>
-            <img src="Images/icone-atelier.svg" alt="Icone Nos ateliers">
-            <a href="#">Nos ateliers</a>
-        </div>
-        <div>
-            <img src="Images/icone-pot.svg" alt="Icone À propos">
-            <a href="#">À propos</a>
-        </div>
+
+        <section class="container">
+
+            <img src="Images/logo-default.svg" alt="Logo terre & flamme">
+            <div>
+                <img src="Images/icone-atelier.svg" alt="Icone Nos ateliers">
+                <a href="#hero">Nos ateliers</a>
+            </div>
+            <div>
+                <img src="Images/icone-pot.svg" alt="Icone À propos">
+                <a href="#apropos">À propos</a>
+            </div>
+
+        </section>
 
     </header>
 
-    <section>
-        <h1>
-            Reconnecte-toi à l'essentiel
-        </h1>
-        <p>
-            Initie-toi à la poterie dans un espace chaleureux et inspirant. Cours débutants, ateliers libres et créations partagées à ton rythme.
-        </p>
-        <form>
-            <select name="activités" id="activités">
-                <option value="">--Choisissez une activité--</option>
-                <option value="initiation" required>Atelier d'initiation</option>
-                <option value="Accès-libre">Accès libre à l'atelier</option>
-                <option value="parent-enfant">Atelier parent-enfant</option>
-                <option value="4-semaines">Cours sur 4 semaines</option>
-            </select>
-            <input type="submit" value="Réserver" />
-        </form>
+    <main>
 
-    </section>
-        <h2>
-            À propos
-        </h2>
-        <p>
-            Fondé par des passionnés de céramique, Terre & Flamme est un atelier de poterie montréalais où tradition et créativité se rencontrent. Que vous soyez curieux d'essayer le tour pour la première fois ou artiste confirmé, nos espaces sont ouverts à tous.
-        </p>
-        <p>
-            Nous croyons que modeler la terre, c'est aussi prendre le temps de respirer, de créer et de partager.
-        </p>
-        <div>
+        <section class="hero" id="hero">
+            <h1>
+                Reconnecte-toi à l'essentiel
+            </h1>
+            <p>
+                Initie-toi à la poterie dans un espace chaleureux et inspirant. Cours débutants, ateliers libres et créations partagées à ton rythme.
+            </p>
+            <form>
+                <select name="activités" id="activités">
+                    <option value="">--Choisissez une activité--</option>
+                    <option value="initiation" required>Atelier d'initiation</option>
+                    <option value="Accès-libre">Accès libre à l'atelier</option>
+                    <option value="parent-enfant">Atelier parent-enfant</option>
+                    <option value="4-semaines">Cours sur 4 semaines</option>
+                </select>
+                <input type="submit" value="Réserver" />
+            </form>
 
+        </section>
+
+        <section class="container" id="apropos">
+            <h2>
+                À propos
+            </h2>
+            <p>
+                Fondé par des passionnés de céramique, Terre & Flamme est un atelier de poterie montréalais où tradition et créativité se rencontrent. Que vous soyez curieux d'essayer le tour pour la première fois ou artiste confirmé, nos espaces sont ouverts à tous.
+            </p>
+            <p>
+                Nous croyons que modeler la terre, c'est aussi prendre le temps de respirer, de créer et de partager.
+            </p>
             <div>
-                <div>
-                    <p>12</p>
-                    <img src="Images/icone-heart.svg" alt="passion">
-                </div>
-                <p>ans de passion</p>
-            </div>
 
-            <div>
                 <div>
-                    <p>1450</p>
-                    <img src="Images/icone-plus.svg" alt="plus">
+                    <div>
+                        <p>12</p>
+                        <img src="Images/icone-heart.svg" alt="passion">
+                    </div>
+                    <p>ans de passion</p>
                 </div>
-                <p>élèves accompagnés</p>
-            </div>
 
-        </div>
-        <button>
-            Découvrir l'atelier
-        </button>
+                <div>
+                    <div>
+                        <p>1450</p>
+                        <img src="Images/icone-plus.svg" alt="plus">
+                    </div>
+                    <p>élèves accompagnés</p>
+                </div>
+
+            </div>
+            <button>
+                Découvrir l'atelier
+            </button>
+
+        </section>
+
+    </main>
 
 
     <footer>
 
-        <section>
+        <section class="container">
             <img src="Images/logo-inverse.svg" alt="Logo terre & flamme">
             <ul>
                 <li><a href="#" >À propos</a></li>
@@ -88,7 +104,7 @@
             </ul>
         </section>
 
-        <section>
+        <section class="container">
             <p>
                 Fait par : Gurulea Evgeniya 
             </p>
@@ -104,5 +120,5 @@
         </section>
 
     </footer>
-    
+
 </body>

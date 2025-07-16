@@ -1,0 +1,33 @@
+:root {
+    --couleur-primaire: #2C1F1F;
+    --couleur-secondaire: #E7E1E1;
+    --couleur-accent: #C1272D;
+    --normal-font-family: KoHo;
+}
+
+body {
+    font-family: var(--normal-font-family);
+    background-color: var(--couleur-secondaire);
+    background-image: url(../Images/bg-apropos.png);
+    background-size: cover;
+    background-position: bottom;
+    margin:0;
+
+}
+
+.container {
+    width: 90%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: var(--couleur-primaire);   
+}
+
+.hero {
+    background-image: url(../Images/bg-banniere.png);
+    background-size: cover;
+    background-position: center;
+    height: 970px;
+}
