@@ -25,6 +25,34 @@ header{
     background-color: var(--couleur-primaire);   
 }
 
+.top-nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    padding-bottom: 1.5rem;
+    padding-top: 1.5rem;
+
+        & .top-nav__logo{
+            height: 7rem;
+        }
+
+        & .top-nav__lien{
+            color: var(--couleur-secondaire);
+            text-decoration: none;
+            padding-left: 2rem;
+        }
+
+        & .top-nav__lien:hover{
+            color: var(--couleur-accent);
+        }
+
+        & .top-nav__icon{
+            height: 1rem;
+            padding-right: 0.2rem;
+        }
+
+}
+
 .hero {
     background-image: url(../Images/bg-banniere.png);
     background-size: cover;
