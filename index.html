@@ -36,21 +36,21 @@
     <main>
 
         <section class="hero" id="hero">
-            <h1>
+            <h1 class="hero__h1">
                 Reconnecte-toi à l'essentiel
             </h1>
-            <p>
+            <p class="hero__p">
                 Initie-toi à la poterie dans un espace chaleureux et inspirant. Cours débutants, ateliers libres et créations partagées à ton rythme.
             </p>
-            <form>
-                <select name="activités" id="activités">
+            <form class="hero__form">
+                <select class="hero__select" name="activités" id="activités" required>
                     <option value="">--Choisissez une activité--</option>
-                    <option value="initiation" required>Atelier d'initiation</option>
+                    <option value="initiation">Atelier d'initiation</option>
                     <option value="Accès-libre">Accès libre à l'atelier</option>
                     <option value="parent-enfant">Atelier parent-enfant</option>
                     <option value="4-semaines">Cours sur 4 semaines</option>
                 </select>
-                <input type="submit" value="Réserver" />
+                <input class="hero__button" type="submit" value="Réserver"/>
             </form>
 
         </section>
