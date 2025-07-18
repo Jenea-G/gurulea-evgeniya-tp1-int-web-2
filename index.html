@@ -1,6 +1,7 @@
 <!DOCTYPE html>
+<html lang="fr">
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
     <title>Terre & Flamme</title>
     <meta name="description" content="Page d'accueil de l'atelier de poterie artisanale Terre & Flamme">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,7 +15,7 @@
 <body>
     <header>
 
-        <section class="container top-nav">
+        <div class="container top-nav">
 
             <img class="top-nav__logo" src="Images/logo-default.svg" alt="Logo terre & flamme">
             <div class="top-nav__liens">
@@ -29,11 +30,11 @@
                 </a>
             </div>
 
-        </section>
+        </div>
 
     </header>
 
-    <main>
+    <main class="main">
 
         <section class="hero" id="hero">
             <h1 class="hero__h1">
@@ -50,7 +51,7 @@
                     <option value="parent-enfant">Atelier parent-enfant</option>
                     <option value="4-semaines">Cours sur 4 semaines</option>
                 </select>
-                <input class="btn-action btn-action--accent" type="submit" value="Réserver"/>
+                <input class="btn-action btn-action--accent" type="submit" value="Réserver">
             </form>
 
         </section>
@@ -93,7 +94,7 @@
                         Découvrir l'atelier
                     </button>
                 </div>
-                                                                                                                                                                                                                     
+                                                                                        
             </div>
 
         </section>
@@ -103,33 +104,40 @@
 
     <footer>
 
-        <section class="container">
-            <img src="Images/logo-inverse.svg" alt="Logo terre & flamme">
-            <ul>
-                <li><a href="#" >À propos</a></li>
-                <li><a href="#" >Nos ateliers</a></li>
-                <li><a href="#" >Témoignages</a></li>
-                <li><a href="#" >Galérie</a></li>
-                <li><a href="#" >Contacts</a></li>
-                <li><a href="#" >Boutique</a></li>
-            </ul>
-        </section>
+        <div class="container">
 
-        <section class="container">
-            <p>
+            <img class="footer__logo" src="Images/logo-inverse.svg" alt="Logo terre & flamme">
+            
+            <ul class="footer__nav">
+                <li><a class="footer__nav-item" href="#" >À propos</a></li>
+                <li><a class="footer__nav-item" href="#" >Nos ateliers</a></li>
+                <li><a class="footer__nav-item" href="#" >Témoignages</a></li>
+                <li><a class="footer__nav-item" href="#" >Galérie</a></li>
+                <li><a class="footer__nav-item" href="#" >Contacts</a></li>
+                <li><a class="footer__nav-item" href="#" >Boutique</a></li>
+            </ul>
+
+        </div>
+
+        <div class="container footer__info">
+
+            <p class="footer__text--left">
                 Fait par : Gurulea Evgeniya 
             </p>
             <div>
-                <img src="Images/icone-mail.svg" alt="mail">
-                <img src="Images/icone-facebook.svg" alt="facebook">
-                <img src="Images/icone-instagram.svg" alt="instagram">
+                <img class="footer__icon" src="Images/icone-mail.svg" alt="mail">
+                <img class="footer__icon" src="Images/icone-facebook.svg" alt="facebook">
+                <img class="footer__icon" src="Images/icone-instagram.svg" alt="instagram">
             </div>
-            <div>
-                <p>+1 448 466 375</p>
-                <p>contact@terreflamme.qc.ca</p>
+            <div class="footer__text--right">
+                <p class="footer__text">+1 448 466 375</p>
+                <p class="footer__text">contact@terreflamme.qc.ca</p>
             </div>
-        </section>
+
+        </div>
 
     </footer>
 
 </body>
+
+</html>
