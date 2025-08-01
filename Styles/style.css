@@ -51,7 +51,6 @@ header {
     & .top-nav__lien:hover {
         color: var(--couleur-accent);
     }
-
 }
 
 .hero {
